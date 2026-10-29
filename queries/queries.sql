@@ -124,7 +124,7 @@ SELECT (SELECT f.codigo FROM fabricante f WHERE f.codigo = p.codigo_fabricante A
 SELECT * FROM producto WHERE precio = (SELECT MAX(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'lenovo'));
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
-SELECT p.nombre AS producto FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo' ORDER BY p.precio DESC LIMIT 1;
+SELECT p.nombre AS nombre FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo' ORDER BY p.precio DESC LIMIT 1;
 
 -- 39. Llista el nom del producte més barat del fabricant Hewlett-Packard.
 SELECT p.nombre AS nombre FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Hewlett-Packard' ORDER BY p.precio ASC LIMIT 1;
