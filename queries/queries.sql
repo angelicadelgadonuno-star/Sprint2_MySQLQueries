@@ -118,13 +118,13 @@ SELECT DISTINCT f.nombre AS fabricante, p.nombre AS producto FROM fabricante f L
 SELECT DISTINCT f.nombre AS fabricante FROM fabricante f LEFT JOIN producto p ON p.codigo_fabricante = f.codigo WHERE p.codigo IS NULL; 
 
 -- 36. Retorna tots els productes del fabricant Lenovo. (Sense utilitzar INNER JOIN).
-SELECT p.nombre AS producto, p.precio (SELECT f.codigo FROM fabricante f WHERE f.codigo = p.codigo_fabricante AND f.nombre = 'Lenovo') AS codigo_fabricante FROM producto p WHERE EXISTS (SELECT 1 FROM fabricante f WHERE f.codigo = p.codigo_fabricante AND f.nombre = 'Lenovo');
+SELECT nombre AS producto, p.precio (SELECT f.codigo FROM fabricante f WHERE f.codigo = p.codigo_fabricante AND f.nombre = 'Lenovo') AS codigo_fabricante FROM producto p WHERE EXISTS (SELECT 1 FROM fabricante f WHERE f.codigo = p.codigo_fabricante AND f.nombre = 'Lenovo');
 
 -- 37. Retorna totes les dades dels productes que tenen el mateix preu que el producte més car del fabricant Lenovo. (Sense usar INNER JOIN).
 SELECT * FROM producto WHERE precio = (SELECT MAX(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = 'lenovo'));
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
-SELECT p.nombre AS producto FROM producto INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo' ORDER BY p.precio DESC LIMIT 1;
+SELECT nombre AS producto FROM producto INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo' ORDER BY p.precio DESC LIMIT 1;
 
 -- 39. Llista el nom del producte més barat del fabricant Hewlett-Packard.
 SELECT p.nombre AS nombre FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Hewlett-Packard' ORDER BY p.precio ASC LIMIT 1;
