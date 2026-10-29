@@ -6,7 +6,7 @@
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.35 ms
+⏱ Tiempo: 0.34 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -20,7 +20,7 @@
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -63,7 +63,7 @@
 +Impresora HP Laserjet Pro M26nw | IMPRESORA HP LASERJET PRO M26NW | 180.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -99,7 +99,7 @@
 +Impresora HP Laserjet Pro M26nw | impresora hp laserjet pro m26nw | 180.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -133,7 +133,7 @@
 +Xiaomi | XI
 ```
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -167,7 +167,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -195,7 +195,7 @@
  Impresora HP Laserjet Pro M26nw | 180.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -231,7 +231,7 @@
 +7.00
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -255,7 +255,7 @@
  7.00
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -287,7 +287,7 @@
 +8.00 | Portátil Yoga 520 | 559.00 | 2.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -324,7 +324,7 @@
 +1.00 | Disco duro SATA3 1TB | 86.99 | 5.00
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -361,7 +361,7 @@
 +Portátil Yoga 520 | 559.00
 ```
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -391,7 +391,7 @@
 +5.00 | Seagate
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.24 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -412,7 +412,7 @@
  5.00 | Seagate
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -432,7 +432,7 @@
 +Impresora HP Deskjet 3720
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -448,7 +448,7 @@
 +GeForce GTX 1080 Xtreme
 ```
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -465,7 +465,7 @@
 +9.00 | Portátil Ideapd 320 | 444.00 | 2.00
 ```
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -495,7 +495,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -531,7 +531,7 @@
 +Portátil Yoga 520 | 559.00 | Lenovo | 2.00
 ```
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.34 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -567,7 +567,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -603,7 +603,7 @@
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 ```
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -629,7 +629,7 @@
 +Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -646,7 +646,7 @@
 +Portátil Ideapd 320 | 444.00 | Lenovo | 2.00
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -663,7 +663,7 @@
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 ```
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.30 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -707,7 +707,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.32 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 🚨 **Problemas detectados:**
@@ -731,7 +731,7 @@
 +GeForce GTX 1050Ti | 185.00 | Gigabyte | 7.00
 ```
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -749,7 +749,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.34 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -772,7 +772,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.36 ms
+⏱ Tiempo: 0.34 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -800,7 +800,7 @@
 +Gigabyte | 7.00
 ```
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -830,7 +830,7 @@
 +Xiaomi | 9.00
 ```
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -859,7 +859,7 @@
 +Xiaomi | 9.00
 ```
 
-⏱ Tiempo: 0.33 ms
+⏱ Tiempo: 0.30 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -877,7 +877,7 @@
 +Portátil Ideapd 320 | 444.00
 ```
 
-⏱ Tiempo: 0.36 ms
+⏱ Tiempo: 0.33 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -892,7 +892,7 @@
 -9.00 | Portátil Ideapd 320 | 444.00 | 2.00
 ```
 
-⏱ Tiempo: 0.40 ms
+⏱ Tiempo: 0.34 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -915,7 +915,7 @@
 +Impresora HP Deskjet 3720
 ```
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -951,7 +951,7 @@
 +7.00 | Monitor 27 LED Full HD | 245.99 | 1.00
 ```
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.40 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
