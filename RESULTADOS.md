@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 30 correctas de 41 queries
+✅ 39 correctas de 41 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.34 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.20 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.17 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,91 +30,91 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.23 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.23 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 10: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.20 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -124,7 +124,7 @@
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -134,56 +134,56 @@
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 19: Correcto
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.25 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 22: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.25 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 23: Correcto
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 24: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 25: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.25 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -195,238 +195,79 @@
 
 ---
 
-## ❌ Query 27: Error
-- **Descripción**: 1054 (42S22): Unknown column 'f.nombre' in 'where clause'
+## ✅ Query 27: Correcto
 
+⏱ Tiempo: 0.25 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+
+---
 
 ## ✅ Query 28: Correcto
-
-⏱ Tiempo: 0.29 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
-
----
-
-## ❌ Query 29: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,6 +1,34 @@
- nombre | precio | fabricante
-+Impresora HP Laserjet Pro M26nw | 180.00 | Asus
-+Impresora HP Deskjet 3720 | 59.99 | Asus
-+Portátil Ideapd 320 | 444.00 | Asus
-+Portátil Yoga 520 | 559.00 | Asus
-+Monitor 27 LED Full HD | 245.99 | Asus
-+Monitor 24 LED Full HD | 202.00 | Asus
-+GeForce GTX 1080 Xtreme | 755.00 | Asus
-+GeForce GTX 1050Ti | 185.00 | Asus
-+Disco SSD 1 TB | 150.99 | Asus
-+Memoria RAM DDR4 8GB | 120.00 | Asus
-+Disco duro SATA3 1TB | 86.99 | Asus
-+Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
-+Portátil Ideapd 320 | 444.00 | Hewlett-Packard
-+Portátil Yoga 520 | 559.00 | Hewlett-Packard
-+Monitor 27 LED Full HD | 245.99 | Hewlett-Packard
-+Monitor 24 LED Full HD | 202.00 | Hewlett-Packard
-+GeForce GTX 1080 Xtreme | 755.00 | Hewlett-Packard
-+GeForce GTX 1050Ti | 185.00 | Hewlett-Packard
-+Disco SSD 1 TB | 150.99 | Hewlett-Packard
-+Memoria RAM DDR4 8GB | 120.00 | Hewlett-Packard
-+Disco duro SATA3 1TB | 86.99 | Hewlett-Packard
-+Impresora HP Laserjet Pro M26nw | 180.00 | Seagate
-+Impresora HP Deskjet 3720 | 59.99 | Seagate
-+Portátil Ideapd 320 | 444.00 | Seagate
-+Portátil Yoga 520 | 559.00 | Seagate
-+Monitor 27 LED Full HD | 245.99 | Seagate
-+Monitor 24 LED Full HD | 202.00 | Seagate
-+GeForce GTX 1080 Xtreme | 755.00 | Seagate
-+GeForce GTX 1050Ti | 185.00 | Seagate
-+Disco SSD 1 TB | 150.99 | Seagate
-+Memoria RAM DDR4 8GB | 120.00 | Seagate
- Disco duro SATA3 1TB | 86.99 | Seagate
--Monitor 24 LED Full HD | 202.00 | Asus
--Monitor 27 LED Full HD | 245.99 | Asus
--Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
--Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-```
-
-⏱ Tiempo: 0.33 ms
-🔍 No se usó ningún índice en esta consulta.
-
-🚨 **Problemas detectados:**
-🚨 `JOIN` sin índice. Revisar claves foráneas e índices.
-⚠️ Considerar `EXISTS` en lugar de `IN` para eficiencia.
-
----
-
-## ❌ Query 30: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,3 +1,3 @@
--nombre | precio | fabricante
--Disco duro SATA3 1TB | 86.99 | Seagate
--GeForce GTX 1050Ti | 185.00 | Gigabyte
-+nombre | precio | fabricante | codigo_fabricante
-+Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
-+GeForce GTX 1050Ti | 185.00 | Gigabyte | 7.00
-```
-
-⏱ Tiempo: 0.31 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
-
----
-
-## ❌ Query 31: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,3 +1,3 @@
--nombre | precio | fabricante
--Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
--Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+nombre | precio | fabricante | codigo_fabricante
-+Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard | 3.00
-+Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
-```
 
 ⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
-## ❌ Query 32: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,8 +1,8 @@
--nombre | precio | fabricante
--GeForce GTX 1080 Xtreme | 755.00 | Crucial
--Portátil Yoga 520 | 559.00 | Lenovo
--Portátil Ideapd 320 | 444.00 | Lenovo
--Monitor 27 LED Full HD | 245.99 | Asus
--Monitor 24 LED Full HD | 202.00 | Asus
--GeForce GTX 1050Ti | 185.00 | Gigabyte
--Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+nombre | precio | fabricante | codigo_fabricante
-+GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
-+Portátil Yoga 520 | 559.00 | Lenovo | 2.00
-+Portátil Ideapd 320 | 444.00 | Lenovo | 2.00
-+Monitor 27 LED Full HD | 245.99 | Asus | 1.00
-+Monitor 24 LED Full HD | 202.00 | Asus | 1.00
-+GeForce GTX 1050Ti | 185.00 | Gigabyte | 7.00
-+Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
-```
+## ✅ Query 29: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.24 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+
+🚨 **Problemas detectados:**
+⚠️ Considerar `EXISTS` en lugar de `IN` para eficiencia.
+
+---
+
+## ✅ Query 30: Correcto
+
+⏱ Tiempo: 0.24 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
-## ❌ Query 33: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,8 +1,8 @@
--codigo | nombre
--1.00 | Asus
--2.00 | Lenovo
--3.00 | Hewlett-Packard
--4.00 | Samsung
--5.00 | Seagate
--6.00 | Crucial
--7.00 | Gigabyte
-+fabricante | codigo_fabricante
-+Asus | 1.00
-+Lenovo | 2.00
-+Hewlett-Packard | 3.00
-+Samsung | 4.00
-+Seagate | 5.00
-+Crucial | 6.00
-+Gigabyte | 7.00
-```
+## ✅ Query 31: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
-## ❌ Query 34: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,14 +1,10 @@
--fabricante | producto
--Asus | Monitor 27 LED Full HD
--Asus | Monitor 24 LED Full HD
--Lenovo | Portátil Ideapd 320
--Lenovo | Portátil Yoga 520
--Hewlett-Packard | Impresora HP Laserjet Pro M26nw
--Hewlett-Packard | Impresora HP Deskjet 3720
--Samsung | Disco SSD 1 TB
--Seagate | Disco duro SATA3 1TB
--Crucial | GeForce GTX 1080 Xtreme
--Crucial | Memoria RAM DDR4 8GB
--Gigabyte | GeForce GTX 1050Ti
--Huawei | NULL
--Xiaomi | NULL
-+fabricante | codigo_fabricante
-+Asus | 1.00
-+Lenovo | 2.00
-+Hewlett-Packard | 3.00
-+Samsung | 4.00
-+Seagate | 5.00
-+Crucial | 6.00
-+Gigabyte | 7.00
-+Huawei | 8.00
-+Xiaomi | 9.00
-```
+## ✅ Query 32: Correcto
 
 ⏱ Tiempo: 0.27 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante
-
----
-
-## ❌ Query 35: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,3 +1,3 @@
--fabricante
--Huawei
--Xiaomi
-+fabricante | codigo_fabricante
-+Huawei | 8.00
-+Xiaomi | 9.00
-```
-
-⏱ Tiempo: 0.28 ms
-✅ Se usó índice(s) en la consulta: codigo_fabricante
-
----
-
-## ❌ Query 36: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,3 +1,3 @@
--codigo | nombre | precio | codigo_fabricante
--8.00 | Portátil Yoga 520 | 559.00 | 2.00
--9.00 | Portátil Ideapd 320 | 444.00 | 2.00
-+producto | precio
-+Portátil Yoga 520 | 559.00
-+Portátil Ideapd 320 | 444.00
-```
-
-⏱ Tiempo: 0.32 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
+
+## ✅ Query 33: Correcto
+
+⏱ Tiempo: 0.27 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
+
+---
+
+## ✅ Query 34: Correcto
+
+⏱ Tiempo: 0.26 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante
+
+---
+
+## ✅ Query 35: Correcto
+
+⏱ Tiempo: 0.25 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante
+
+---
+
+## ❌ Query 36: Error
+- **Descripción**: 1054 (42S22): Unknown column 'f.codigo' in 'field list'
+
 
 ## ✅ Query 37: Correcto
 
-⏱ Tiempo: 0.33 ms
+⏱ Tiempo: 0.31 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -438,24 +279,16 @@
 - **Descripción**: 1054 (42S22): Unknown column 'p.nombre' in 'field list'
 
 
-## ❌ Query 39: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,2 +1,2 @@
--nombre
-+producto
- Impresora HP Deskjet 3720
-```
+## ✅ Query 39: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.25 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 40: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -465,7 +298,7 @@
 
 ## ✅ Query 41: Correcto
 
-⏱ Tiempo: 0.41 ms
+⏱ Tiempo: 0.32 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
