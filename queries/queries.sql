@@ -12,7 +12,7 @@ SELECT *
 SELECT nombre, precio 
  AS precio_eur, precio 
  AS precio_usd 
- FROM producto
+ FROM producto;
 
 -- 5. Llista el nom dels productes, el preu en euros i el preu en dòlars estatunidencs (amb un tipus de canvi de 1 € = 1,1 $ i arrodonint el resultat a dues xifres decimals). Utilitza els següents àlies per a les columnes: nom del producte, euros, dòlars.
 SELECT nombre, precio 
