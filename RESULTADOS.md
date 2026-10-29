@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 19 correctas de 41 queries
+✅ 21 correctas de 41 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.34 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,153 +30,86 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.28 ms
-🔍 No se usó ningún índice en esta consulta.
-
----
-
-## ❌ Query 5: Error
-- **Descripción**: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'producte, precio 
- AS euros, ROUND(precio * 1.1, 2) 
- AS `dòlars` 
- FROM produc' at line 2
-
-
-## ✅ Query 6: Correcto
-
-⏱ Tiempo: 0.24 ms
-🔍 No se usó ningún índice en esta consulta.
-
----
-
-## ✅ Query 7: Correcto
-
-⏱ Tiempo: 0.21 ms
-🔍 No se usó ningún índice en esta consulta.
-
----
-
-## ✅ Query 8: Correcto
-
-⏱ Tiempo: 0.32 ms
-🔍 No se usó ningún índice en esta consulta.
-
----
-
-## ✅ Query 9: Correcto
-
 ⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 10: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,4 +1,4 @@
--nombre | precio truncado
-+nombre | precio_truncado
- Disco duro SATA3 1TB | 86.00
- Memoria RAM DDR4 8GB | 120.00
- Disco SSD 1 TB | 150.00
-```
+## ❌ Query 5: Error
+- **Descripción**: 1054 (42S22): Unknown column 'nom_del_producte' in 'field list'
+
+
+## ✅ Query 6: Correcto
 
 ⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
+## ✅ Query 7: Correcto
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ✅ Query 8: Correcto
+
+⏱ Tiempo: 0.29 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ✅ Query 9: Correcto
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 10: Error
+- **Descripción**: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS precio truncado 
+ FROM producto' at line 2
+
+
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
-## ❌ Query 13: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,10 +1,12 @@
- nombre
--Asus
--Crucial
--Gigabyte
--Hewlett-Packard
--Huawei
--Lenovo
--Samsung
--Seagate
--Xiaomi
-+Disco duro SATA3 1TB
-+Disco SSD 1 TB
-+GeForce GTX 1050Ti
-+GeForce GTX 1080 Xtreme
-+Impresora HP Deskjet 3720
-+Impresora HP Laserjet Pro M26nw
-+Memoria RAM DDR4 8GB
-+Monitor 24 LED Full HD
-+Monitor 27 LED Full HD
-+Portátil Ideapd 320
-+Portátil Yoga 520
-```
+## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 14: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,10 +1,12 @@
- nombre
--Xiaomi
--Seagate
--Samsung
--Lenovo
--Huawei
--Hewlett-Packard
--Gigabyte
--Crucial
--Asus
-+Portátil Yoga 520
-+Portátil Ideapd 320
-+Monitor 27 LED Full HD
-+Monitor 24 LED Full HD
-+Memoria RAM DDR4 8GB
-+Impresora HP Laserjet Pro M26nw
-+Impresora HP Deskjet 3720
-+GeForce GTX 1080 Xtreme
-+GeForce GTX 1050Ti
-+Disco SSD 1 TB
-+Disco duro SATA3 1TB
-```
+## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -186,7 +119,7 @@
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -196,21 +129,21 @@
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.22 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 19: Correcto
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.23 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.24 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -232,7 +165,7 @@
 -Portátil Ideapd 320 | 444.00 | Lenovo
 -Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 -Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Memoria RAM DDR4 8GB | 120.00 | Crucial | 6.00
 +Disco SSD 1 TB | 150.99 | Samsung | 4.00
@@ -246,7 +179,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -268,7 +201,7 @@
 -Portátil Ideapd 320 | 444.00 | Lenovo
 -Disco SSD 1 TB | 150.99 | Samsung
 -Disco duro SATA3 1TB | 86.99 | Seagate
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Disco SSD 1 TB | 150.99 | Samsung | 4.00
 +GeForce GTX 1050Ti | 185.00 | Gigabyte | 7.00
@@ -282,7 +215,7 @@
 +Portátil Yoga 520 | 559.00 | Lenovo | 2.00
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.30 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -304,7 +237,7 @@
 -9.00 | Portátil Ideapd 320 | 2.00 | Lenovo
 -10.00 | Impresora HP Deskjet 3720 | 3.00 | Hewlett-Packard
 -11.00 | Impresora HP Laserjet Pro M26nw | 3.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Memoria RAM DDR4 8GB | 120.00 | Crucial | 6.00
 +Disco SSD 1 TB | 150.99 | Samsung | 4.00
@@ -318,7 +251,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -330,7 +263,7 @@
 @@ -1,2 +1,12 @@
 -nombre | precio | fabricant
 -Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard | 3.00
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Memoria RAM DDR4 8GB | 120.00 | Crucial | 6.00
@@ -344,7 +277,7 @@
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 ```
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.25 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -356,7 +289,7 @@
 @@ -1,2 +1,12 @@
 -nombre | precio | fabricante
 -GeForce GTX 1080 Xtreme | 755.00 | Crucial
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 +Portátil Yoga 520 | 559.00 | Lenovo | 2.00
 +Portátil Ideapd 320 | 444.00 | Lenovo | 2.00
@@ -370,7 +303,7 @@
 +Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -383,12 +316,12 @@
 -nombre | precio
 -Portátil Yoga 520 | 559.00
 -Portátil Ideapd 320 | 444.00
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Portátil Yoga 520 | 559.00 | Lenovo | 2.00
 +Portátil Ideapd 320 | 444.00 | Lenovo | 2.00
 ```
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -400,11 +333,11 @@
 @@ -1,2 +1,2 @@
 -nombre | precio
 -GeForce GTX 1080 Xtreme | 755.00
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -420,7 +353,7 @@
 -Monitor 27 LED Full HD | 245.99 | Asus
 -Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 -Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Monitor 24 LED Full HD | 202.00 | Asus | 1.00
 +Monitor 27 LED Full HD | 245.99 | Asus | 1.00
@@ -428,7 +361,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -444,7 +377,7 @@
 -Monitor 27 LED Full HD | 245.99 | Asus
 -Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 -Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +Monitor 24 LED Full HD | 202.00 | Asus | 1.00
 +Monitor 27 LED Full HD | 245.99 | Asus | 1.00
@@ -452,7 +385,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -468,12 +401,12 @@
 -nombre | precio | fabricante
 -Disco duro SATA3 1TB | 86.99 | Seagate
 -GeForce GTX 1050Ti | 185.00 | Gigabyte
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Disco duro SATA3 1TB | 86.99 | Seagate | 5.00
 +GeForce GTX 1050Ti | 185.00 | Gigabyte | 7.00
 ```
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -486,12 +419,12 @@
 -nombre | precio | fabricante
 -Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 -Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard | 3.00
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -509,7 +442,7 @@
 -Monitor 24 LED Full HD | 202.00 | Asus
 -GeForce GTX 1050Ti | 185.00 | Gigabyte
 -Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
-+producto | precio | fabricante | codigo_fabricante
++nombre | precio | fabricante | codigo_fabricante
 +GeForce GTX 1080 Xtreme | 755.00 | Crucial | 6.00
 +Portátil Yoga 520 | 559.00 | Lenovo | 2.00
 +Portátil Ideapd 320 | 444.00 | Lenovo | 2.00
@@ -519,7 +452,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard | 3.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -547,7 +480,7 @@
 +Gigabyte | 7.00
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.28 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
@@ -583,7 +516,7 @@
 +Xiaomi | 9.00
 ```
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.27 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -601,7 +534,7 @@
 +Xiaomi | 9.00
 ```
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
@@ -619,14 +552,14 @@
 +Portátil Ideapd 320 | 444.00
 ```
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.29 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
 
 ## ✅ Query 37: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.33 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -648,14 +581,14 @@
  Impresora HP Deskjet 3720
 ```
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.30 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, codigo_fabricante
 
 ---
 
 ## ✅ Query 40: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.30 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
@@ -665,7 +598,7 @@
 
 ## ✅ Query 41: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.35 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 🚨 **Problemas detectados:**
