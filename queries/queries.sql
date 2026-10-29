@@ -15,7 +15,7 @@ SELECT nombre, precio
  FROM producto;
 
 -- 5. Llista el nom dels productes, el preu en euros i el preu en dòlars estatunidencs (amb un tipus de canvi de 1 € = 1,1 $ i arrodonint el resultat a dues xifres decimals). Utilitza els següents àlies per a les columnes: nom del producte, euros, dòlars.
-SELECT nombre AS nom_del_producte, precio 
+SELECT nombre AS nom del producte, precio 
  AS euros, ROUND(precio * 1.1, 2) 
  AS `dòlars` 
  FROM producto;
@@ -77,13 +77,13 @@ SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 1;
 SELECT nombre FROM producto WHERE codigo_fabricante = 2;
 
 -- 21. Retorna una llista amb el nom del producte, preu i nom de fabricant (nombre del fabricante) de tots els productes de la base de dades.
-SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
+SELECT p.nombre AS nombre, p.precio, f.nombre AS nombre del fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
 -- 22. Llista tots els productes amb nom, preu i nom del fabricant (nombre del fabricante) ordenats alfabèticament.
-SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo ORDER BY p.nombre ASC;
+SELECT p.nombre AS nombre, p.precio, f.nombre AS nombre del fabricante FROM producto p ORDER BY p.nombre ASC;
 
 -- 23. Retorna una llista amb el codi del producte, nom del producte, codi del fabricant (codigo fabricante) i nom del fabricant (nombre fabricante), de tots els productes de la base de dades.
-SELECT p.nombre AS nombre, p.precio, f.codigo AS codigo_fabricante, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
+SELECT p.codigo AS codigo, p.nombre AS nombre, p.precio, f.codigo AS codigo_fabricante, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
 -- 24. Retorna el nom, el preu i el nom del fabricant (fabricante), del producte més barat.
 SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante =f.codigo ORDER BY p.precio ASC;
