@@ -16,7 +16,7 @@ SELECT nombre, precio
 
 -- 5. Llista el nom dels productes, el preu en euros i el preu en dòlars estatunidencs (amb un tipus de canvi de 1 € = 1,1 $ i arrodonint el resultat a dues xifres decimals). Utilitza els següents àlies per a les columnes: nom del producte, euros, dòlars.
 SELECT nom del producte, precio 
- AS euros, ROUND (precio * 1.1, 2) 
+ AS euros, ROUND(precio * 1.1, 2) 
  AS `dòlars` 
  FROM producto;
 
@@ -37,7 +37,7 @@ SELECT nombre, ROUND(precio) AS precio
  FROM producto;
 
 -- 10. Llista els noms i els preus de tots els productes (precio truncado) de la taula producto, truncant el valor del preu per a mostrar-lo sense cap xifra decimal.
-SELECT nombre, TRUNCATE(precio,0) AS precio truncado 
+SELECT nombre, TRUNCATE(precio,0) AS precio_truncado 
  FROM producto;
 
 -- 11. Mostra una llista amb els codis dels fabricants que apareixen a la taula producto, incloent possibles repeticions.
@@ -47,10 +47,14 @@ SELECT codigo_fabricante FROM producto;
 SELECT DISTINCT codigo_fabricante FROM producto;
 
 -- 13. Llista els noms dels fabricants ordenats de manera ascendent
-SELECT * FROM producto ORDER BY nombre ASC;
+SELECT nombre 
+ FROM producto 
+ ORDER BY nombre ASC;
 
 -- 14. Llista els noms dels fabricants ordenats de manera descendent
- SELECT * FROM producto ORDER BY nombre DESC;
+ SELECT nombre
+  FROM producto
+  ORDER BY nombre DESC;
 
 -- 15. Llista els noms i els preus dels productes ordenats, en primer lloc, pel nom de manera ascendent i, en segon lloc, pel preu de manera descendent.
 SELECT nombre, precio FROM producto ORDER BY nombre ASC, precio DESC;
@@ -62,13 +66,13 @@ SELECT * FROM fabricante LIMIT 5;
 SELECT * FROM fabricante LIMIT 3, 2;
 
 -- 18. Llista el nom i el preu del producte més barat. (Utilitza solament les clàusules ORDER BY i LIMIT).
-SELECT nombre FROM producto ORDER BY precio ASC LIMIT 1;
+SELECT nombre, precio FROM producto ORDER BY precio ASC LIMIT 1;
 
 -- 19. Llista el nom i el preu del producte més car. (Utilitza solament les clàusules ORDER BY i LIMIT).
-SELECT nombre FROM producto ORDER BY precio DESC LIMIT 1;
+SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 1;
 
 -- 20. Llista el nom de tots els productes del fabricant el codi de fabricant del qual és igual a 2.
-SELECT * FROM producto WHERE codigo_fabricante = 2;
+SELECT nombre FROM producto WHERE codigo_fabricante = 2;
 
 -- 21. Retorna una llista amb el nom del producte, preu i nom de fabricant (nombre del fabricante) de tots els productes de la base de dades.
 SELECT p.nombre AS producto, p.precio, f.nombre AS fabricante, f.codigo AS codigo_fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
