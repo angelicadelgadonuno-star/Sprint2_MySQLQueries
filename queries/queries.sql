@@ -80,7 +80,7 @@ SELECT p.nombre AS nombre, p.precio, f.nombre AS 'nombre del fabricante' FROM pr
 SELECT p.nombre AS nombre, p.precio, f.nombre AS 'nombre del fabricante' FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo ORDER BY f.nombre ASC;
 
 -- 23. Retorna una llista amb el codi del producte, nom del producte, codi del fabricant (codigo fabricante) i nom del fabricant (nombre fabricante), de tots els productes de la base de dades.
-SELECT p.codigo AS codigo, p.nombre AS nombre, f.codigo AS 'codigo fabricante', f.nombre AS nombre FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
+SELECT p.codigo AS codigo, p.nombre AS nombre, f.codigo AS 'codigo fabricante', f.nombre AS 'nombre fabricante' FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
 -- 24. Retorna el nom, el preu i el nom del fabricant (fabricante), del producte més barat.
 SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricant  FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo ORDER BY p.precio ASC LIMIT 1;
@@ -92,12 +92,12 @@ SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante  FROM producto p INN
 SELECT p.nombre AS nombre, p.precio FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo';
 
 -- 27. Retorna una llista amb nom i preu de tots els productes del fabricant Crucial que tinguin un preu major que 200 €
-SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante, f.codigo AS codigo_fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Crucial' AND p.precio > 200;
+SELECT p.nombre AS nombre, p.precio FROM producto p WHERE f.nombre = 'Crucial' AND p.precio > 200;
 -- 28. Retorna un llistat amb nom, preu i nom del fabricant (fabricante) de tots els productes dels fabricants Asus, Hewlett-Packard i Seagate. Sense utilitzar l'operador IN.
- SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante, f.codigo AS codigo_fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Asus' OR f.nombre = 'Hewlett-Packard' OR f.nombre = 'Seagate';
+ SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Asus' OR f.nombre = 'Hewlett-Packard' OR f.nombre = 'Seagate';
 
 -- 29. Retorna un llistat amb nom, preu i nom del fabricant (fabricante) de tots els productes dels fabricants Asus, Hewlett-Packard i Seagate. Fent servir l'operador IN.
-SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante, f.codigo AS codigo_fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre IN ('Asus','Hewlett-Packard','Seagate');
+SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante FROM producto p INNER JOIN fabricante f  WHERE f.nombre IN ('Asus','Hewlett-Packard','Seagate');
 
 -- 30. Retorna un llistat amb el nom, el preu i el nom del fabricant (fabricante) dels productes, on el nom del fabricant acabi en la lletra 'e'.
 SELECT p.nombre AS nombre, p.precio, f.nombre AS fabricante, f.codigo AS codigo_fabricante FROM producto p INNER JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre LIKE '%e';
